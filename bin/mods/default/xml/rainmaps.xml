@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rainmaps>
+	<rainmap>
+		<description>rainy west, dry east</description>
+		<probability>2</probability>
+		<map>
+			<cell x="0" y="0">5</cell>
+			<cell x="1" y="0">6</cell>
+			<cell x="2" y="0">5</cell>
+			<cell x="3" y="0">6</cell>
+			<cell x="4" y="0">5</cell>
+			<cell x="5" y="0">4</cell>
+			<cell x="6" y="0">5</cell>
+			<cell x="7" y="0">4</cell>
+			<cell x="8" y="0">5</cell>
+			<cell x="9" y="0">4</cell>
+			
+			<cell x="0" y="1">5</cell>
+			<cell x="1" y="1">5</cell>
+			<cell x="2" y="1">5</cell>
+			<cell x="3" y="1">5</cell>
+			<cell x="4" y="1">5</cell>
+			<cell x="5" y="1">4</cell>
+			<cell x="6" y="1">4</cell>
+			<cell x="7" y="1">4</cell>
+			<cell x="8" y="1">4</cell>
+			<cell x="9" y="1">4</cell>
+			
+			<cell x="0" y="2">6</cell>
+			<cell x="1" y="2">6</cell>
+			<cell x="2" y="2">6</cell>
+			<cell x="3" y="2">6</cell>
+			<cell x="4" y="2">5</cell>
+			<cell x="5" y="2">4</cell>
+			<cell x="6" y="2">3</cell>
+			<cell x="7" y="2">3</cell>
+			<cell x="8" y="2">3</cell>
+			<cell x="9" y="2">3</cell>
+			
+			<cell x="0" y="3">7</cell>
+			<cell x="1" y="3">7</cell>
+			<cell x="2" y="3">7</cell>
+			<cell x="3" y="3">6</cell>
+			<cell x="4" y="3">5</cell>
+			<cell x="5" y="3">4</cell>
+			<cell x="6" y="3">3</cell>
+			<cell x="7" y="3">2</cell>
+			<cell x="8" y="3">2</cell>
+			<cell x="9" y="3">2</cell>
+			
+			<cell x="0" y="4">8</cell>
+			<cell x="1" y="4">8</cell>
+			<cell x="2" y="4">7</cell>
+			<cell x="3" y="4">6</cell>
+			<cell x="4" y="4">5</cell>
+			<cell x="5" y="4">4</cell>
+			<cell x="6" y="4">3</cell>
+			<cell x="7" y="4">2</cell>
+			<cell x="8" y="4">1</cell>
+			<cell x="9" y="4">1</cell>
+			
+			<cell x="0" y="5">9</cell>
+			<cell x="1" y="5">8</cell>
+			<cell x="2" y="5">7</cell>
+			<cell x="3" y="5">6</cell>
+			<cell x="4" y="5">5</cell>
+			<cell x="5" y="5">4</cell>
+			<cell x="6" y="5">3</cell>
+			<cell x="7" y="5">2</cell>
+			<cell x="8" y="5">1</cell>
+			<cell x="9" y="5">0</cell>
+			
+			<cell x="0" y="6">9</cell>
+			<cell x="1" y="6">8</cell>
+			<cell x="2" y="6">7</cell>
+			<cell x="3" y="6">6</cell>
+			<cell x="4" y="6">5</cell>
+			<cell x="5" y="6">4</cell>
+			<cell x="6" y="6">3</cell>
+			<cell x="7" y="6">2</cell>
+			<cell x="8" y="6">1</cell>
+			<cell x="9" y="6">0</cell>
+			
+			<cell x="0" y="7">9</cell>
+			<cell x="1" y="7">8</cell>
+			<cell x="2" y="7">7</cell>
+			<cell x="3" y="7">6</cell>
+			<cell x="4" y="7">5</cell>
+			<cell x="5" y="7">4</cell>
+			<cell x="6" y="7">3</cell>
+			<cell x="7" y="7">2</cell>
+			<cell x="8" y="7">1</cell>
+			<cell x="9" y="7">0</cell>
+			
+			<cell x="0" y="8">9</cell>
+			<cell x="1" y="8">8</cell>
+			<cell x="2" y="8">7</cell>
+			<cell x="3" y="8">6</cell>
+			<cell x="4" y="8">5</cell>
+			<cell x="5" y="8">4</cell>
+			<cell x="6" y="8">3</cell>
+			<cell x="7" y="8">2</cell>
+			<cell x="8" y="8">1</cell>
+			<cell x="9" y="8">0</cell>
+			
+			<cell x="0" y="9">9</cell>
+			<cell x="1" y="9">8</cell>
+			<cell x="2" y="9">7</cell>
+			<cell x="3" y="9">6</cell>
+			<cell x="4" y="9">5</cell>
+			<cell x="5" y="9">4</cell>
+			<cell x="6" y="9">3</cell>
+			<cell x="7" y="9">2</cell>
+			<cell x="8" y="9">1</cell>
+			<cell x="9" y="9">0</cell>		
+		</map>
+	</rainmap>
+	<!--
+	<rainmap>
+		<description>rainy north west, mostly dry south east</description>
+		<probability>2</probability>
+		<map>
+			<cell x="0" y="0">8</cell>
+			<cell x="1" y="0">8</cell>
+			<cell x="2" y="0">9</cell>
+			<cell x="3" y="0">9</cell>
+			<cell x="4" y="0">7</cell>
+			<cell x="5" y="0">7</cell>
+			<cell x="6" y="0">6</cell>
+			<cell x="7" y="0">5</cell>
+			<cell x="8" y="0">4</cell>
+			<cell x="9" y="0">5</cell>
+			
+			<cell x="0" y="1">8</cell>
+			<cell x="1" y="1">8</cell>
+			<cell x="2" y="1">6</cell>
+			<cell x="3" y="1">6</cell>
+			<cell x="4" y="1">4</cell>
+			<cell x="5" y="1">4</cell>
+			<cell x="6" y="1">4</cell>
+			<cell x="7" y="1">3</cell>
+			<cell x="8" y="1">3</cell>
+			<cell x="9" y="1">2</cell>
+			
+			<cell x="0" y="2">8</cell>
+			<cell x="1" y="2">8</cell>
+			<cell x="2" y="2">6</cell>
+			<cell x="3" y="2">5</cell>
+			<cell x="4" y="2">4</cell>
+			<cell x="5" y="2">5</cell>
+			<cell x="6" y="2">4</cell>
+			<cell x="7" y="2">1</cell>
+			<cell x="8" y="2">1</cell>
+			<cell x="9" y="2">0</cell>
+			
+			<cell x="0" y="3">6</cell>
+			<cell x="1" y="3">5</cell>
+			<cell x="2" y="3">5</cell>
+			<cell x="3" y="3">4</cell>
+			<cell x="4" y="3">4</cell>
+			<cell x="5" y="3">4</cell>
+			<cell x="6" y="3">4</cell>
+			<cell x="7" y="3">4</cell>
+			<cell x="8" y="3">2</cell>
+			<cell x="9" y="3">1</cell>
+			
+			<cell x="0" y="4">5</cell>
+			<cell x="1" y="4">5</cell>
+			<cell x="2" y="4">4</cell>
+			<cell x="3" y="4">5</cell>
+			<cell x="4" y="4">5</cell>
+			<cell x="5" y="4">6</cell>
+			<cell x="6" y="4">5</cell>
+			<cell x="7" y="4">4</cell>
+			<cell x="8" y="4">3</cell>
+			<cell x="9" y="4">2</cell>
+			
+			<cell x="0" y="5">5</cell>
+			<cell x="1" y="5">9</cell>
+			<cell x="2" y="5">9</cell>
+			<cell x="3" y="5">6</cell>
+			<cell x="4" y="5">5</cell>
+			<cell x="5" y="5">4</cell>
+			<cell x="6" y="5">4</cell>
+			<cell x="7" y="5">3</cell>
+			<cell x="8" y="5">3</cell>
+			<cell x="9" y="5">2</cell>
+			
+			<cell x="0" y="6">5</cell>
+			<cell x="1" y="6">6</cell>
+			<cell x="2" y="6">4</cell>
+			<cell x="3" y="6">5</cell>
+			<cell x="4" y="6">1</cell>
+			<cell x="5" y="6">2</cell>
+			<cell x="6" y="6">4</cell>
+			<cell x="7" y="6">5</cell>
+			<cell x="8" y="6">0</cell>
+			<cell x="9" y="6">0</cell>
+			
+			<cell x="0" y="7">4</cell>
+			<cell x="1" y="7">6</cell>
+			<cell x="2" y="7">5</cell>
+			<cell x="3" y="7">5</cell>
+			<cell x="4" y="7">2</cell>
+			<cell x="5" y="7">2</cell>
+			<cell x="6" y="7">3</cell>
+			<cell x="7" y="7">1</cell>
+			<cell x="8" y="7">3</cell>
+			<cell x="9" y="7">2</cell>
+			
+			<cell x="0" y="8">8</cell>
+			<cell x="1" y="8">9</cell>
+			<cell x="2" y="8">9</cell>
+			<cell x="3" y="8">8</cell>
+			<cell x="4" y="8">2</cell>
+			<cell x="5" y="8">2</cell>
+			<cell x="6" y="8">1</cell>
+			<cell x="7" y="8">2</cell>
+			<cell x="8" y="8">3</cell>
+			<cell x="9" y="8">1</cell>
+			
+			<cell x="0" y="9">9</cell>
+			<cell x="1" y="9">8</cell>
+			<cell x="2" y="9">7</cell>
+			<cell x="3" y="9">6</cell>
+			<cell x="4" y="9">5</cell>
+			<cell x="5" y="9">4</cell>
+			<cell x="6" y="9">3</cell>
+			<cell x="7" y="9">2</cell>
+			<cell x="8" y="9">1</cell>
+			<cell x="9" y="9">0</cell>		
+		</map>
+	</rainmap>
+	-->
+</rainmaps>

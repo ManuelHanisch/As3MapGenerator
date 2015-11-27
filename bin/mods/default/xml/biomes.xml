@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+biomes are located on a square diagram where 
+x = temperature
+y = rain
+
+starting at [0,0] going to [9,9]
+
+
+Biomes should at best not overlap each other and fill out the whole diagram. Internally, overlapping will lead
+to new biomes overwriting the old ones. So no error will be thrown but keep them not overlapped for your own clarity.
+
+Empty fields will be filled out with the first biome thats added internally (usually the top,left one), so try to avoid that too.
+
+-->
+
+<biomes>
+	<biome>
+		<name>Tundra</name>
+		<uniqueID>tundra</uniqueID>
+		<environments>
+			<environment>
+				<linkID>borealforrest</linkID>
+				<dropRate>10</dropRate>
+			</environment>
+		</environments>
+		<basecolor>CCFFCC</basecolor>
+		<temperature start="0" end="2" />
+		<rain start="0" end="4" />
+	</biome>
+	<biome>
+		<name>Taiga</name>
+		<uniqueID>taiga</uniqueID>
+		<environments>
+			<environment>
+				<linkID>borealforrest</linkID>
+				<dropRate>80</dropRate>
+			</environment>
+			<environment>
+				<linkID>mountains64x64</linkID>
+				<dropRate>2</dropRate>
+			</environment>
+		</environments>
+		<basecolor>33FFCC</basecolor>
+		<temperature start="0" end="2" />
+		<rain start="5" end="9" />
+	</biome>
+	<biome>
+		<name>Shrubland</name>
+		<uniqueID>shrubland</uniqueID>
+		<environments>
+			<environment>
+				<linkID>birchforrest</linkID>
+				<dropRate>15</dropRate>
+			</environment>
+			<environment>
+				<linkID>borealforrest</linkID>
+				<dropRate>15</dropRate>
+			</environment>
+			<environment>
+				<linkID>hills</linkID>
+				<dropRate>30</dropRate>
+			</environment>
+		</environments>
+		<basecolor>CCCC33</basecolor>
+		<temperature start="3" end="5" />
+		<rain start="0" end="2" />
+	</biome>
+	<biome>
+		<name>Desert</name>
+		<uniqueID>desert</uniqueID>
+		<environments></environments>
+		<basecolor>FFCC66</basecolor>
+		<temperature start="6" end="9" />
+		<rain start="0" end="3" />
+	</biome>
+	<biome>
+		<name>Grassland</name>
+		<uniqueID>grassland</uniqueID>
+		<environments>
+			<environment>
+				<linkID>birchforrest</linkID>
+				<dropRate>30</dropRate>
+			</environment>
+			<environment>
+				<linkID>hills</linkID>
+				<dropRate>5</dropRate>
+			</environment>
+			<environment>
+				<linkID>mountainsse</linkID>
+				<dropRate>1</dropRate>
+			</environment>
+			<environment>
+				<linkID>mountainssw</linkID>
+				<dropRate>1</dropRate>
+			</environment>
+		</environments>
+		<basecolor>e7ebd0</basecolor>
+		<temperature start="3" end="5" />
+		<rain start="3" end="7" />		
+	</biome>
+	
+	<biome>
+		<name>Swampland</name>
+		<uniqueID>swampland</uniqueID>
+		<environments>
+			<environment>
+				<linkID>swamp</linkID>
+				<dropRate>30</dropRate>
+			</environment>
+		</environments>
+		<basecolor>666699</basecolor>
+		<temperature start="3" end="5" />
+		<rain start="8" end="9" />
+	</biome>
+	<biome>
+		<name>Savanna</name>
+		<uniqueID>savanna</uniqueID>
+		<environments>
+			<environment>
+				<linkID>acaciacluster</linkID>
+				<dropRate>30</dropRate>
+			</environment>
+			<environment>
+				<linkID>mountainsse</linkID>
+				<dropRate>1</dropRate>
+			</environment>
+			<environment>
+				<linkID>mountainssw</linkID>
+				<dropRate>1</dropRate>
+			</environment>
+		</environments>
+		<basecolor>CCCC99</basecolor>
+		<temperature start="6" end="9" />
+		<rain start="4" end="5" />
+	</biome>
+	<biome>
+		<name>Jungle</name>
+		<uniqueID>jungle</uniqueID>
+		<environments>
+			<environment>
+				<linkID>rainforrest</linkID>
+				<dropRate>90</dropRate>
+			</environment>
+		</environments>
+		<basecolor>006633</basecolor>
+		<temperature start="6" end="9" />
+		<rain start="6" end="9" />
+	</biome>	
+</biomes>

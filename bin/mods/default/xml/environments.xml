@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+description here 
+
+-->
+
+<environments>
+	<environment>	
+		<name>Birch Forrest</name>
+		<uniqueID>birchforrest</uniqueID>
+		<sprite>
+			<variations>
+				<variation>mods/default/sprites/birchforrest16.png</variation>
+			</variations>
+			<offset x="0" y="0" />
+			<usedTiles>
+				<tile x="0" y="0" />		
+			</usedTiles>
+		</sprite>
+	</environment>
+	<environment>	
+		<name>Hills</name>
+		<uniqueID>hills</uniqueID>
+		<sprite>
+			<variations>
+				<variation>mods/default/sprites/hills16.png</variation>
+			</variations>
+			<offset x="0" y="0" />
+			<usedTiles>
+				<tile x="0" y="0" />		
+			</usedTiles>
+		</sprite>
+	</environment>
+	<environment>	
+		<name>Mountains SE</name>
+		<uniqueID>mountainsse</uniqueID>
+		<sprite>
+			<variations>
+				<variation>mods/default/sprites/mountains64x64.png</variation>
+			</variations>
+			<offset x="0" y="0" />
+			<usedTiles>
+				<tile x="1" y="0" />
+				<tile x="0" y="1" />
+				<tile x="1" y="1" />
+				<tile x="2" y="1" />
+				<tile x="2" y="2" />
+				<tile x="3" y="2" />
+				<tile x="2" y="3" />
+			</usedTiles>
+		</sprite>
+	</environment>
+	<environment>	
+		<name>Mountains SW</name>
+		<uniqueID>mountainssw</uniqueID>
+		<sprite>
+			<variations>
+				<variation>mods/default/sprites/mountains64x64.png</variation>
+			</variations>
+			<offset x="0" y="0" />
+			<usedTiles>
+				<tile x="2" y="0" />
+				<tile x="3" y="0" />
+				<tile x="1" y="1" />
+				<tile x="2" y="1" />
+				<tile x="1" y="2" />
+				<tile x="1" y="3" />
+			</usedTiles>
+		</sprite>
+	</environment>
+	<environment>	
+		<name>Rain Forrest</name>
+		<uniqueID>rainforrest</uniqueID>
+		<sprite>
+			<variations>
+				<variation>mods/default/sprites/rainforrest16.png</variation>
+			</variations>
+			<offset x="0" y="0" />
+			<usedTiles>
+				<tile x="0" y="0" />		
+			</usedTiles>
+		</sprite>
+	</environment>
+	<environment>	
+		<name>Boreal Forrest</name>
+		<uniqueID>borealforrest</uniqueID>
+		<sprite>
+			<variations>
+				<variation>mods/default/sprites/borrealforrest16.png</variation>
+			</variations>
+			<offset x="0" y="0" />
+			<usedTiles>
+				<tile x="0" y="0" />		
+			</usedTiles>
+		</sprite>
+	</environment>
+	<environment>	
+		<name>Acacia Cluster</name>
+		<uniqueID>acaciacluster</uniqueID>
+		<sprite>
+			<variations>
+				<variation>mods/default/sprites/acaciaforrest16.png</variation>
+			</variations>
+			<offset x="0" y="0" />
+			<usedTiles>
+				<tile x="0" y="0" />		
+			</usedTiles>
+		</sprite>
+	</environment>
+	<environment>	
+		<name>Swamp</name>
+		<uniqueID>swamp</uniqueID>
+		<sprite>
+			<variations>
+				<variation>mods/default/sprites/swamp16.png</variation>
+			</variations>
+			<offset x="0" y="0" />
+			<usedTiles>
+				<tile x="0" y="0" />		
+			</usedTiles>
+		</sprite>
+	</environment>
+</environments>
