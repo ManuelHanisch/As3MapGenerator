@@ -4,9 +4,9 @@
 
 ## A MapGenerator written in Actionscript 3. 
 This is the Map-Generation module for a hobby-project i am working on. 
+Its based on [Voronoi Diagrams (Wikipedia)](https://en.wikipedia.org/wiki/Voronoi_diagram)
 
 #### Features: 
-Map Generation is based on [Voronoi Diagrams (Wikipedia)](https://en.wikipedia.org/wiki/Voronoi_diagram)
 
 Supports XML-based Temperature- and Humidity-maps (aka Rain-maps).
 
@@ -17,8 +17,8 @@ Supports XML-based Environments (forests, Hills, Mountains or whatever you can i
 You can define which Environments your Biomes contain and their frequency of occurence.
 You can also define custom shapes and sizes for your Environments.   
 
-The example code (to demonstrate the generator) uses simple graphical functions, Environments are just hardcoded Draw-calls.
-The XML files already support images, but uploading & implementing images or tilesets would go beyond the scope of this project.
+The example code (to demonstrate the generator) uses simple Sprite classes and graphical functions, Environments are just hardcoded Draw-calls.
+The XML files already support images, but uploading & implementing images and/or tilesets would go beyond the scope of this project.
 
 
 #### Dependencies
